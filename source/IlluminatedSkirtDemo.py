@@ -28,16 +28,16 @@ while True:
                 b[pixel_id] = b[pixel_id+1]
 
             # set brightness value (Red) of top LEDs
-            if (itr == 0): r[14] = 1
-            elif (itr == 1): r[14] = 2
-            elif (itr == 2): r[14] = 3
-            elif (itr == 3): r[14] = 4
-            elif (itr == 4): r[14] = 6
-            elif (itr == 5): r[14] = 8
-            elif (itr == 6): r[14] = 12
-            elif (itr == 7): r[14] = 16
-            elif (itr == 8): r[14] = 24
-            elif (itr == 9): r[14] = 32
+            if (itr ==  0): r[14] = 1
+            elif (itr ==  1): r[14] = 2
+            elif (itr ==  2): r[14] = 3
+            elif (itr ==  3): r[14] = 4
+            elif (itr ==  4): r[14] = 6
+            elif (itr ==  5): r[14] = 8
+            elif (itr ==  6): r[14] = 12
+            elif (itr ==  7): r[14] = 16
+            elif (itr ==  8): r[14] = 24
+            elif (itr ==  9): r[14] = 32
             elif (itr == 10): r[14] = 48
             elif (itr == 11): r[14] = 56
             elif (itr == 12): r[14] = 64
@@ -67,20 +67,20 @@ while True:
             elif (itr == 23): g[14] = 24
             elif (itr == 24): g[14] = 32
             elif (itr == 25): g[14] = 48
-            elif (itr == 27): g[14] = 56
-            elif (itr == 26): g[14] = 64
-            elif (itr == 27): g[14] = 56
-            elif (itr == 28): g[14] = 48
-            elif (itr == 29): g[14] = 32
-            elif (itr == 30): g[14] = 24
-            elif (itr == 31): g[14] = 16
-            elif (itr == 32): g[14] = 12
-            elif (itr == 33): g[14] = 8
-            elif (itr == 34): g[14] = 6
-            elif (itr == 35): g[14] = 4
-            elif (itr == 36): g[14] = 3
-            elif (itr == 37): g[14] = 2
-            elif (itr == 38): g[14] = 1
+            elif (itr == 26): g[14] = 56
+            elif (itr == 27): g[14] = 64
+            elif (itr == 28): g[14] = 56
+            elif (itr == 29): g[14] = 48
+            elif (itr == 30): g[14] = 32
+            elif (itr == 31): g[14] = 24
+            elif (itr == 32): g[14] = 16
+            elif (itr == 33): g[14] = 12
+            elif (itr == 34): g[14] = 8
+            elif (itr == 35): g[14] = 6
+            elif (itr == 36): g[14] = 4
+            elif (itr == 37): g[14] = 3
+            elif (itr == 38): g[14] = 2
+            elif (itr == 39): g[14] = 1
             else: g[14] = 0
 
             # set brightness value (Blue) of top LEDs
@@ -117,4 +117,3 @@ while True:
                     np[30*x + 14-y +15] = (r[y], g[y], b[y])
 
             np.show()
-            

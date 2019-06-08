@@ -30,6 +30,7 @@ This is the project of an illumination module for skirt.
 
 + source/microbit_neopixel_test.py --- test program
 + source/IlluminatedSkirtDemo.py --- Illumination Demo program
++ source/IlluminatedSkirt_Accelerometer.py --- Illumination Demo program using Accelerometer
 
 
 ## Pictures
