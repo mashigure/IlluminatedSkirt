@@ -40,11 +40,11 @@ while True:
             last_y = accele_y
             last_z = accele_z
 
-            if 255 < var:
+            if 127 < var:
                 coeff = 4
-            elif 127 < var:
+            elif 63 < var:
                 coeff = 3
-            elif (63 < var) and (coeff < 2):
+            elif (31 < var) and (coeff < 2):
                 coeff = 2
             elif 1 < coeff:
                 coeff -= 1
